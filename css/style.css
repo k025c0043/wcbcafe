@@ -8,5 +8,32 @@ html {
 body {
     font-family: 'Hiragini Kaku Gothic ProN', "Hiragino Sans", "BIZ UDPGothic",sans-serif;
     line-height: 1.7;
-    color: #432;;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.logo {
+    width: 210px;
+}
+
+.main-nav {
+
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.main-nav__item a {
+    color: #432;
+}
+.main-nav a{
+    color: #432;
+}
+.main-nav__item a:hover {
+    color: #432
 }
