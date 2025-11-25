@@ -5,35 +5,91 @@
 html {
     font-size: 100%;
 }
-body {
-    font-family: 'Hiragini Kaku Gothic ProN', "Hiragino Sans", "BIZ UDPGothic",sans-serif;
-    line-height: 1.7;
-    color: #432;
-}
-a {
-    text-decoration: none;
-}
-img {
-    max-width: 100%;
-}
-.logo {
-    width: 210px;
-}
 
-.main-nav {
-
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+}
+.page-title,
+.hedding-large {
+    font-size: 3rem;
+    text-align: center;
+}
+.page-title {
+    margin-top: 2rem;
+    line-height: normal;
+}
+.hedding-large {
+    margin-bottom: 1rem;
+}
+/* ボタン*/
+.btn {
+    display: inline-block;
     font-size: 1.5rem;
-    list-style: none;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    text-decoration: .5s;
 }
-.main-nav__item a {
-    color: #432;
+.btn:hover {
+    background-color: #0090aa;
 }
-.main-nav a{
-    color: #432;
+
+/* ボタンの基本スタイル */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* テキストの色 */
+    background-color: #007BFF; /* ボタンの背景色 */
+    border: 2px solid #0056b3; /* 枠線の色 */
+    border-radius: 5px; /* 角を丸くする */
+    text-align: center;
+    text-decoration: none; /* 下線を消す */
+    transition: background-color 0.3s, color 0.3s; /* ホバー時のアニメーション */
 }
-.main-nav__item a:hover {
-    color: #432
+
+/* ホバー時のスタイル */
+.button:hover {
+    background-color: #0056b3; /* 背景色を変更 */
+    color: #ffffff; /* テキストの色を変更 */
+}
+
+.page-header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-nav {
+    display: flex; /* Flexboxを有効化 */
+    justify-content: center; /* 要素を中央揃え */
+    gap: 20px; /* 要素間のスペース */
+}
+
+.header-nav li {
+    list-style: none; /* リストのマーカーを非表示 */
+}
+
+.header-nav a {
+    text-decoration: none; /* 下線を非表示 */
+    color: #333; /* テキストの色 */
+}
+.cover{
+background-size: cover;
+background-position: center bottom;
+height: 800px;
+}
+
+.cover-home{
+background-image: url("../images/cover-home-s.webp");
+}
+.about{
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+.about p {
+    margin-bottom: 3rem;
 }
