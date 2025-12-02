@@ -5,13 +5,31 @@
 html {
     font-size: 100%;
 }
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+   text-decoration: none;
 
+.logo {
+    width: 210px ;
+}
+
+}
+img {
+    max-width: 100%;
+}
+.align-center {
+    text-align: center;
+}
 .font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
 }
 .page-title,
-.hedding-large {
+.heading-large {
     font-size: 3rem;
     text-align: center;
 }
@@ -19,7 +37,7 @@ html {
     margin-top: 2rem;
     line-height: normal;
 }
-.hedding-large {
+.heading-large {
     margin-bottom: 1rem;
 }
 /* ボタン*/
@@ -57,9 +75,7 @@ html {
 }
 
 .page-header {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 20px;
+    padding-top: .5rem;
 }
 
 .header-nav {
@@ -83,13 +99,47 @@ height: 800px;
 }
 
 .cover-home{
-background-image: url("../images/cover-home-s.webp");
+background-image: url("../images/cover-home-l.webp");
 }
-.about{
-    max-width: 736px;
-    padding: 0 1.5rem;
-    margin: 3rem auto 0;
+.about {
+    max-width: 900px;
+    padding: 3rem 1.5rem;
+    margin: 0 auto;
+    background: #f8f9fa;
+    text-align: center;
 }
 .about p {
-    margin-bottom: 3rem;
+    margin: 1.5rem auto;
+    max-width: 700px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.page-footer {
+    background-image: url("../images/footer-bg-s.webp");
+    background-size: cover;
+    background-position: center ;
+    padding-top:12rem;
+}
+
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+    text-align: left;
+    padding: 1rem;
+    font-weight: normal;
+}
+.info td {
+    padding: 1rem 0;
 }
